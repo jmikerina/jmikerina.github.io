@@ -1,0 +1,214 @@
+#title {
+    background-color: #191919;
+}
+
+.navi {
+    padding: 1% 3%;
+}
+
+.navbar-utem {
+    padding: 0 8px;
+}
+
+.btn {
+    font-family: "Raleway";
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 5rem;
+    padding-top: 1%;
+    text-align: center;
+    color: #BED754;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: "Playfair Display";
+    font-size: 2.5rem;
+}
+
+h4 {
+   font-family: "Raleway";
+   font-size: 2rem;
+   padding-bottom: 4%;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   color: #E3651D;
+}
+
+h5 {
+    font-family: "Raleway";
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Raleway";
+}
+
+.checkerboard {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.checker {
+    background-color: #BED754;
+    color: #750E21;
+}
+
+.checkera {
+    background-color: #750E21;
+    color: #BED754;
+}
+
+.board {
+    background-color: #E3651D;
+    color: #191919;
+}
+
+.abra {
+    font-size: 1.2rem;
+}
+
+.zugzwang {
+    background-color: #750E21;
+    border-color: #750E21;
+    color: #BED754;
+}
+
+.checkmate {
+    background-color: #BED754;
+    border-color: #BED754;
+    color: #750E21;
+}
+
+#experience .row {
+    padding: 6% 10% 3%;
+}
+
+#education {
+    padding: 8% 10% 8%;
+    text-align: center;
+    line-height: 5;
+    background-color: #BED754;
+}
+
+.card-header {
+    padding: 7%;
+    background-color: #191919;
+    outline-color: #191919;
+    color: #E3651D;
+}
+
+.card-body {
+    padding: 7%;
+    background-color: #191919;
+    outline-color: #191919;
+    color: #E3651D;
+}
+
+.hello {
+    color: #191919;
+    background-color: #E3651D;
+}
+
+.education-column {
+    padding: 3%;
+}
+
+#biochema .carousel-caption { width:400px; z-index:10; color:#fff; text-align:center; top:70%; left:55%; bottom:auto; -webkit-transform:translate(-50%, -50%); -ms-transform:translate(-50%, -50%); transform:translate(0, -50%); }
+
+#ochema .carousel-caption { width:350px; z-index:10; color:#fff; text-align:center; top:25%; left:16%; bottom:auto; -webkit-transform:translate(0, -50%); -ms-transform:translate(0, -50%); transform:translate(0, -50%); }
+
+#othera .carousel-caption { width:400px; z-index:10; color:#fff; text-align:center; top:50%; left:37%; bottom:auto; -webkit-transform:translate(0, -50%); -ms-transform:translate(0, -50%); transform:translate(0, -50%); }
+
+.biochem {  
+    font-family: "Playfair Display";
+    font-size: 2.5rem;
+    color: #ED9ED6;
+}
+
+.ochem {
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    color: #001B79;
+}
+
+.other {
+    font-family: "Playfair Display";
+    font-size: 2.5rem;
+}
+
+.carousel-item {
+    height: 800px;
+    padding: 7% 15% 0%;
+  }
+
+  @media (max-width: 767px) {
+    #biochema .carousel-caption,
+    #ochema .carousel-caption,
+    #othera .carousel-caption {
+        padding-top: 40%;
+        width: 70%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    }
+
+/* Larger than medium */
+@media (min-width: 768px) {
+    #ochema .carousel-caption {
+        color: #001B79; font-size: 1.3rem;
+    }
+}
+
+/* Medium and smaller */
+@media (max-width: 767px) {
+    #ochema .carousel-caption {
+        color: lightblue;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #ochema .ochem {
+        color: lightblue;
+        font-size: 2.5rem;
+    }
+}
+
+
+#skills {
+    background-color: #191919;
+}
+
+#contact {
+    padding: 5% 30% 5%;
+    text-align: center;
+    background-color: #BED754;
+    color: #191919;
+}
+
+hr {
+    display: block;
+    margin-top: 5em;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 30px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: #E3651D;
+    width: 120px;
+}
+
+
